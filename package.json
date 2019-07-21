@@ -2,7 +2,7 @@
   "name": "server",
   "version": "1.0.0",
   "description": "Server for Salty Rogue Real Estate static webpage",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/TylerOlsen14/SaltyRogueRealEstate3StaticServer/issues"
   },
-  "homepage": "https://github.com/TylerOlsen14/SaltyRogueRealEstate3StaticServer#readme"
+  "homepage": "https://github.com/TylerOlsen14/SaltyRogueRealEstate3StaticServer#readme",
+  "dependencies": {
+    "mongoose": "^5.6.5"
+  }
 }
